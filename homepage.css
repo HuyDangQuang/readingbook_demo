@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 1098px;
+    max-width: 100%;
+    min-height: 700px;
+    background-image: url('Web_2.png');
+    background-size: cover; /* Tự động căn chỉnh hình ảnh để bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    background-position: center; /* Căn giữa hình nền */
+}
