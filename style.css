@@ -18,6 +18,8 @@ body {
 }
 
 .quiz-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     border-radius: 30px;
